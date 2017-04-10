@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="gameArea">  
+        <div id="content">
+
+            <img src="img/p.gif" id="bird" height="60" width="75" alt="bird">
+            <img src="img/kot.gif" id="cat" height="254" width="110" alt="cat">
+            <img src="img/ptak2.gif" id="ptak" height="280px" alt="cat">
+
+            <div id="info">
+
+            <ul>
+            	<li><img id="pause" src="img/pause.png" width="20" height="20"></li>
+               <li>PUNKTY: <span id="punkty"> 0 </span> </li>
+               <li>ŻYCIA: <span id="zycia"> 1 </span> </li>
+               <li>OBRAŻENIA: <span id="obrazenia"> 0 </span> % </li>
+               <li>CZAS GRY: <span id="timer">00:00</span></li>
+            </ul>
+            </div>
+            
+            <div id="warning" style = "display: none;"></div>
+
+            <div id="startContainer">
+              <div id="start">ZACZYNAMY!</div>
+            </div>
+
+        </div>
+    </div>
+<script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>
